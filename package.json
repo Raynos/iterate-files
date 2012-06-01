@@ -1,0 +1,31 @@
+{
+    "name": "iterate-files",
+    "version": "0.1.0",
+    "description": "iterate all the files",
+    "keywords": [],
+    "author": "Raynos <raynos2@gmail.com>",
+    "repository": "git://github.com/Raynos/iterate-files.git",
+    "main": "index",
+    "scripts": {
+        "test": "make test"
+    },
+    "homepage": "https://github.com/Raynos/iterate-files",
+    "contributors": [
+        {
+            "name": "Jake Verbaten"
+        }
+    ],
+    "bugs": {
+        "url": "https://github.com/Raynos/iterate-files/issues",
+        "email": "raynos2@gmail.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/raynos/iterate-files/raw/master/LICENSE"
+        }
+    ],
+    "engines": {
+        "node": ">=0.4"
+    }
+}
