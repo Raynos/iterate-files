@@ -28,7 +28,7 @@ function iterateFiles(uri, callback, done, regexp) {
             }
 
             if (stat.isDirectory()) {
-                iterateFiles(fileName, callback, next)
+                iterateFiles(fileName, callback, next, regexp)
             } else if (stat.isFile() && (!regexp || regexp.test(fileName))) {
                 callback(fileName)
                 next()
